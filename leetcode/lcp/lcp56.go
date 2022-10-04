@@ -1,4 +1,4 @@
-package lcp
+package main
 
 var INF = int(1e9)
 var dirs = [][]int{{1, 0}, {0, 1}, {-1, 0}, {0, -1}}
