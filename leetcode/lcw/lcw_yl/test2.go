@@ -44,3 +44,20 @@ func abs(a int) int {
 //	var res = explorationSupply(stas, pos)
 //	fmt.Println(res)
 //}
+
+func checkDistances(s string, distance []int) bool {
+	var mp = make(map[int32]int)
+	for i, c := range s {
+		if v, exist := mp[c-'a']; exist {
+			mp[c-'a'] = i - v - 1
+		} else {
+			mp[c-'a'] = i
+		}
+	}
+	for i, d := range distance {
+		if mp[int32(i)] != d {
+			return false
+		}
+	}
+	return true
+}
