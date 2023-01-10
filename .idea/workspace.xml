@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="35afa9b1-341e-4a69-a03b-7254d63ef33f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/test829/test829.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/test829/test829.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
         <option value="Go File" />
       </list>
@@ -36,47 +36,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
-    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "configurable..is.expanded": "false",
-    "configurable.GoLibrariesConfigurable.is.expanded": "true",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/legend/Projects/GolandProjects/AlgorithmsGO/leetcode/test1774",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "com.goide.configuration.GoProjectSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;configurable..is.expanded&quot;: &quot;false&quot;,
+    &quot;configurable.GoLibrariesConfigurable.is.expanded&quot;: &quot;true&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/legend/Projects/GolandProjects/AlgorithmsGO/leetcode&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.goide.configuration.GoProjectSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode" />
       <recent name="$PROJECT_DIR$/leetcode/test1774" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/leetcode/lcp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode" />
       <recent name="$PROJECT_DIR$/leetcode/lcw" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build AlgorithmsGO/leetcode/test784">
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.lcw.lcw318.Test3" />
+  <component name="RunManager" selected="Application.Test1801">
+    <configuration name="Test1801" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.test1801.Test1801" />
       <module name="AlgorithmsGO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.lcw.lcw318.*" />
+          <option name="PATTERN" value="leetcode.test1801.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.lcw.lcwt93.Test3" />
+      <module name="AlgorithmsGO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.lcw.lcwt93.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,18 +108,13 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build AlgorithmsGO/leetcode/lcw/lcwt90" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build AlgorithmsGO/leetcode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsGO" />
       <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-buildvcs=false" />
-      <parameters value="-buildvcs=false" />
-      <envs>
-        <env name="-buildvcs" value="false" />
-      </envs>
       <kind value="PACKAGE" />
-      <package value="AlgorithmsGO/leetcode/lcw/lcwt90" />
+      <package value="AlgorithmsGO/leetcode" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/lcw/lcwt90/t3.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build AlgorithmsGO/leetcode/test784" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -125,15 +135,6 @@
       <filePath value="$PROJECT_DIR$/leetcode/lcw/lcw317/t3.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build t3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="AlgorithmsGO" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="AlgorithmsGO" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/lcw/lcwt90/t3.go" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="AlgorithmsGO" />
       <working_directory value="$PROJECT_DIR$" />
@@ -145,18 +146,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Test1801" />
       <item itemvalue="Application.Test3" />
+      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode" />
       <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test784" />
-      <item itemvalue="Go Build.go build t3.go" />
       <item itemvalue="Go Build.go build t3.go (1)" />
-      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/lcw/lcwt90" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test1801" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode" />
         <item itemvalue="Go Build.go build t3.go (1)" />
         <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test784" />
-        <item itemvalue="Go Build.go build t3.go" />
-        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/lcw/lcwt90" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +181,12 @@
       <workItem from="1667056182196" duration="36357000" />
       <workItem from="1668223356526" duration="18117000" />
       <workItem from="1668817218177" duration="62969000" />
-      <workItem from="1670134083802" duration="16741000" />
+      <workItem from="1670134083802" duration="18580000" />
+      <workItem from="1670655658655" duration="30499000" />
+      <workItem from="1671027844613" duration="44085000" />
+      <workItem from="1672331816752" duration="13431000" />
+      <workItem from="1672646005919" duration="18534000" />
+      <workItem from="1673359189177" duration="2387000" />
     </task>
     <servers />
   </component>
@@ -322,6 +329,30 @@
           <url>file://$PROJECT_DIR$/leetcode/lcw/lcw317/t4.go</url>
           <line>42</line>
           <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/lcw/lcwt93/Test3.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/test1801/Test1801.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/leetcode/test1801/Test1801.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/leetcode/lcw/lcwt93/Test3.java</url>
+          <line>9</line>
+          <properties class="leetcode.lcw.lcwt93.Test3" method="maxJump">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
