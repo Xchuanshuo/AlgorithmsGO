@@ -72,7 +72,7 @@
       <recent name="$PROJECT_DIR$/leetcode/lcw" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1801">
+  <component name="RunManager" selected="Go Build.go build AlgorithmsGO/leetcode">
     <configuration name="Test1801" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.test1801.Test1801" />
       <module name="AlgorithmsGO" />
@@ -154,8 +154,6 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test1801" />
-        <item itemvalue="Application.Test3" />
         <item itemvalue="Go Build.go build AlgorithmsGO/leetcode" />
         <item itemvalue="Go Build.go build t3.go (1)" />
         <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test784" />
@@ -186,7 +184,10 @@
       <workItem from="1671027844613" duration="44085000" />
       <workItem from="1672331816752" duration="13431000" />
       <workItem from="1672646005919" duration="18534000" />
-      <workItem from="1673359189177" duration="2387000" />
+      <workItem from="1673359189177" duration="6784000" />
+      <workItem from="1674019312139" duration="8662000" />
+      <workItem from="1674111002475" duration="14267000" />
+      <workItem from="1674874412534" duration="6543000" />
     </task>
     <servers />
   </component>
@@ -329,30 +330,6 @@
           <url>file://$PROJECT_DIR$/leetcode/lcw/lcw317/t4.go</url>
           <line>42</line>
           <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/lcw/lcwt93/Test3.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/test1801/Test1801.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/leetcode/test1801/Test1801.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="121" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/leetcode/lcw/lcwt93/Test3.java</url>
-          <line>9</line>
-          <properties class="leetcode.lcw.lcwt93.Test3" method="maxJump">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
