@@ -36,3 +36,10 @@ func fastPow(a, k int) int {
 	}
 	return a * fastPow(a, k-1) % M
 }
+
+//输入：
+//[11,2,19,7,9,27]
+//输出：
+//31
+//预期：
+//15

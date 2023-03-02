@@ -1,30 +1,29 @@
-package test715_segmentree_dynamic
+package main
 
-type RangeModule struct {
+import "fmt"
+
+type MyCalendarThree struct {
 	tree *SegmentTree
 }
 
-func Constructor() RangeModule {
-	t := NewSegmentTree(int(1e9+1), func(lv, rv int) int {
-		if lv == 1 && rv == 1 {
-			return 1
-		}
-		return -1
-	})
-	t.update(0, int(1e9+1), -1)
-	return RangeModule{t}
+func Constructor() MyCalendarThree {
+	return MyCalendarThree{
+		tree: NewSegmentTree(int(1e9+1), func(lv, rv int) int {
+			return max(lv, rv)
+		}),
+	}
 }
 
-func (this *RangeModule) AddRange(left int, right int) {
-	this.tree.update(left, right-1, 1)
+func (this *MyCalendarThree) Book(s int, e int) int {
+	this.tree.update(s, e-1, 1)
+	return this.tree.root.val
 }
 
-func (this *RangeModule) QueryRange(left int, right int) bool {
-	return this.tree.query(left, right-1) == 1
-}
-
-func (this *RangeModule) RemoveRange(left int, right int) {
-	this.tree.update(left, right-1, -1)
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 
 func NewSegmentTree(n int, f func(lv, rv int) int) *SegmentTree {
@@ -53,8 +52,8 @@ func (s *SegmentTree) update(curL, curR int, val int) {
 }
 
 func (s *SegmentTree) _query(node *Node, l, r, curL, curR int) int {
-	if r < curL || l > curR {
-		return 1
+	if r < curL || l > curR || node == nil {
+		return 0
 	}
 	if l >= curL && r <= curR {
 		return node.val
@@ -99,6 +98,14 @@ func (s *SegmentTree) pushDown(node *Node) {
 
 // 处理lazy逻辑
 func (s *SegmentTree) do(node *Node, val int) {
-	node.lazy = val
-	node.val = val
+	node.lazy += val
+	node.val += val
+}
+
+func main() {
+	var t = Constructor()
+	a := t.Book(1, 2)
+	fmt.Println(a)
+	b := t.Book(1, 2)
+	fmt.Println(b)
 }
