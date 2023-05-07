@@ -3,7 +3,7 @@ package test1157
 /**
  * @Description https://leetcode.cn/problems/online-majority-element-in-subarray/
  * idea: 线段树 + 摩尔投票 + 二分查找
-		1.已知threshold > r-l+1, 即目标数为区间中超过半数元素
+		1.已知threshold > (r-l+1)/2, 即目标数为区间中超过半数元素
 		2.使用线段树，节点记录当前值，以及在当前区间抵消投票后的数量
 		3.相等的元素可能投票后【随机】返回其中一个，或左右任一区间抵消后，另一区间投票结果元素未达半数以上
  		  因此对于查找后的结果，需要二次在索引区间判定是否正确
