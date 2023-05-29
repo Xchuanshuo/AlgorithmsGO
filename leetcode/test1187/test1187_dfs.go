@@ -7,7 +7,7 @@ import (
 
 var INF = math.MaxInt32 / 2
 
-func makeArrayIncreasing(a1 []int, a2 []int) int {
+func makeArrayIncreasing1(a1 []int, a2 []int) int {
 	var n = len(a1)
 	sort.Ints(a2)
 	var mem = make([]map[int]int, n)

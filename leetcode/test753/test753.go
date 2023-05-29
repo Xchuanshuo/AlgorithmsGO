@@ -30,5 +30,6 @@ func crackSafe(n int, k int) string {
 	for i := 0; i < n-1; i++ {
 		bytes = append(bytes, '0')
 	}
+	// 01 10 11 110
 	return string(bytes)
 }

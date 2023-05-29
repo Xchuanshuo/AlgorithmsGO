@@ -33,7 +33,7 @@ func (this *Graph) ShortestPath(node1 int, node2 int) int {
 	return this.calc(node1, node2)
 }
 
-// 最短路径
+// dijkstra 最短路径
 func (this *Graph) calc(s, t int) int {
 	var pq = priorityqueue.NewWith(func(a, b interface{}) int {
 		o1, o2 := a.([]int), b.([]int)
