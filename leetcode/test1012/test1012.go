@@ -7,7 +7,7 @@ package test1012
 					     对于n位数，为A(9-i, n-i-1)
  **/
 
-func numDupDigitsAtMostN(N int) int {
+func numDupDigitsAtMostN1(N int) int {
 	var a = make([]int, 0)
 	var t = N + 1
 	for t != 0 {

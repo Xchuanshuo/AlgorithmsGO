@@ -25,7 +25,7 @@ package test902
 
 import "math"
 
-func atMostNGivenDigitSet(digits []string, n int) int {
+func atMostNGivenDigitSet1(digits []string, n int) int {
 	var t = n
 	var f = make([]int, 0)
 	for t != 0 {
