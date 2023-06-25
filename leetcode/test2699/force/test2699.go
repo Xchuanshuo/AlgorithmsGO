@@ -1,4 +1,4 @@
-package test2699
+package force
 
 import (
 	"github.com/emirpasic/gods/queues/priorityqueue"
