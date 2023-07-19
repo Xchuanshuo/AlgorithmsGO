@@ -2,7 +2,7 @@ package test834
 
 /**
  * @Description https://leetcode.cn/problems/sum-of-distances-in-tree/
- * idea: 树形dp, 两遍dfs, 用dp[i]表示节点i到其它节点的距离之和,
+ * idea: (换根)树形dp, 两遍dfs, 用dp[i]表示节点i到其它节点的距离之和,
 		sz[i]表示以某个节点为根的树节点个数，sum[i]表示以i为根的子树所有节点到i的距离之和
 		 1.统计以任意节点为子树的节点个数, 计算某一点到其它点的距离之和
 		 2.若v,w相邻, v,w拆成两颗子树

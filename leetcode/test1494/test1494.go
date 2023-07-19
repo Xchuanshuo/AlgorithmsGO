@@ -43,5 +43,6 @@ func min(a, b int) int {
 	if a < b {
 		return a
 	}
+	// 遍历所有状态
 	return b
 }

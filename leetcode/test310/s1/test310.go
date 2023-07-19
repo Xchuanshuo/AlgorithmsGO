@@ -1,4 +1,4 @@
-package test310
+package s1
 
 func findMinHeightTrees(n int, edges [][]int) []int {
 	if n == 1 {

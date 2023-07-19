@@ -9,39 +9,37 @@ package test1483
  **/
 
 type TreeAncestor struct {
+	dp [][20]int
 	n  int
-	dp [][17]int
 }
 
 func Constructor(n int, parent []int) TreeAncestor {
-	var dp = make([][17]int, n)
+	var dp = make([][20]int, n)
 	for i := 0; i < n; i++ {
 		dp[i][0] = parent[i]
 		for j := 1; j < len(dp[i]); j++ {
 			dp[i][j] = -1
 		}
 	}
-	for i := 1; i < n; i++ {
-		for j := 1; j < len(dp[i]); j++ {
-			if dp[i][j-1] == -1 {
-				break
+	for j := 1; j < 20; j++ {
+		for i := 1; i < n; i++ {
+			if dp[i][j-1] != -1 {
+				dp[i][j] = dp[dp[i][j-1]][j-1]
 			}
-			dp[i][j] = dp[dp[i][j-1]][j-1]
 		}
 	}
-	return TreeAncestor{n, dp}
+	return TreeAncestor{dp, n}
 }
 
 func (this *TreeAncestor) GetKthAncestor(node int, k int) int {
-	var pre = node
-	for i := 0; i < 17; i++ {
-		if k&(1<<i) == 0 {
-			continue
+	var cur = node
+	for i := 0; i < 20; i++ {
+		if k&(1<<i) != 0 {
+			cur = this.dp[cur][i]
 		}
-		pre = this.dp[pre][i]
-		if pre == -1 {
+		if cur == -1 {
 			break
 		}
 	}
-	return pre
+	return cur
 }
