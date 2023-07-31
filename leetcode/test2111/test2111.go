@@ -9,6 +9,7 @@ import "sort"
 
 func kIncreasing(arr []int, k int) int {
 	var n = len(arr)
+	// 求最长上升子序列
 	var calc = func(a []int) int {
 		var n = len(a)
 		var a1 = make([]int, n+1)
