@@ -4,6 +4,12 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+/**
+ * @Description <a href="https://leetcode.cn/problems/minimum-interval-to-include-each-query/">...</a>
+ * idea: 关键点: 1.查询排序，对于当前查询的位置p，所有左边界<p的区间入对，入对后右区间<p的对后续查询也无效，出队
+ *              2.队列的元素取最小长度的
+ **/
+
 public class Test1851 {
 
     public int[] minInterval(int[][] invs, int[] queries) {

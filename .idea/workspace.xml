@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="35afa9b1-341e-4a69-a03b-7254d63ef33f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/test2514/test2514.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/test2514/test2514.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/test715_segmentree_dynamic/test715.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/test715_segmentree_dynamic/test715.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/test829/test829.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/test829/test829.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/test1851/Test1851.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/test1851/Test1851.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="UML State" />
+        <option value="UML Sequence" />
         <option value="Class" />
         <option value="Go File" />
       </list>
@@ -27,6 +27,18 @@
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/leetcode/lcw/lcw340/t4_1.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/leetcode/lcw/lcw352/t3.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/leetcode/lcw/lcw352/t4.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/leetcode/lcw/lcwt98/t4.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/leetcode/test1330/test1330.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/leetcode/test1494/test1494.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/leetcode/test2069/test2069.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/leetcode/test732/test732.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/go/pkg/mod/github.com/emirpasic/gods@v1.18.1/trees/redblacktree/redblacktree.go" root0="SKIP_INSPECTION" />
+    <setting file="file:///usr/local/go/src/strings/strings.go" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,6 +54,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.format.on.save.advertiser.fired&quot;: &quot;true&quot;,
@@ -55,28 +68,31 @@
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
     &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/legend/Projects/GolandProjects/AlgorithmsGO/leetcode&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/legend/Projects/GolandProjects/AlgorithmsGO/leetcode/test2227/s2&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.goide.configuration.GoProjectSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode/test2227/s2" />
+      <recent name="$PROJECT_DIR$/leetcode/test2654/s2" />
+      <recent name="$PROJECT_DIR$/leetcode/lcw/lcw350" />
+      <recent name="$PROJECT_DIR$/leetcode/test2699/binary_search" />
       <recent name="$PROJECT_DIR$/leetcode" />
-      <recent name="$PROJECT_DIR$/leetcode/test1774" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/leetcode/lcp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/leetcode/test732/seg" />
-      <recent name="$PROJECT_DIR$/leetcode" />
-      <recent name="$PROJECT_DIR$/leetcode/lcw" />
+      <recent name="$PROJECT_DIR$/leetcode/test1851/s1" />
+      <recent name="$PROJECT_DIR$/leetcode/test310/s1" />
+      <recent name="$PROJECT_DIR$/leetcode/test2227/s1" />
+      <recent name="$PROJECT_DIR$/leetcode/test2654/s1" />
+      <recent name="$PROJECT_DIR$/leetcode/lcp/lcp41" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build AlgorithmsGO/leetcode/lcw/lcw334">
+  <component name="RunManager" selected="Go Build.go build AlgorithmsGO/leetcode/test972">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="AlgorithmsGO" />
       <working_directory value="$PROJECT_DIR$" />
@@ -86,49 +102,49 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build AlgorithmsGO/leetcode" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build AlgorithmsGO/acwing/test325" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsGO" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="AlgorithmsGO/leetcode" />
+      <package value="AlgorithmsGO/acwing/test325" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/main.go" />
+      <filePath value="$PROJECT_DIR$/acwing/test325/test325.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build AlgorithmsGO/leetcode/lcw/lcw334" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build AlgorithmsGO/leetcode/lcw/lcw352" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsGO" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="AlgorithmsGO/leetcode/lcw/lcw334" />
+      <package value="AlgorithmsGO/leetcode/lcw/lcw352" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/lcw/lcw334/t4.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/lcw/lcw352/t2.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build AlgorithmsGO/leetcode/test732/seg" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build AlgorithmsGO/leetcode/test1659" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsGO" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="AlgorithmsGO/leetcode/test732/seg" />
+      <package value="AlgorithmsGO/leetcode/test1659" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/test732/seg/test732_seg.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/test1659/test1659.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build AlgorithmsGO/leetcode/test784" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build AlgorithmsGO/leetcode/test906/t" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsGO" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="AlgorithmsGO/leetcode/test784" />
+      <package value="AlgorithmsGO/leetcode/test906/t" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/test784/test784.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/test906/t/t.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build t3.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build AlgorithmsGO/leetcode/test972" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="AlgorithmsGO" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="AlgorithmsGO" />
+      <kind value="PACKAGE" />
+      <package value="AlgorithmsGO/leetcode/test972" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/leetcode/lcw/lcw317/t3.go" />
+      <filePath value="$PROJECT_DIR$/leetcode/test972/test972.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -142,19 +158,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/lcw/lcw334" />
-      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test732/seg" />
-      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode" />
-      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test784" />
-      <item itemvalue="Go Build.go build t3.go (1)" />
+      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test972" />
+      <item itemvalue="Go Build.go build AlgorithmsGO/acwing/test325" />
+      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/lcw/lcw352" />
+      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test1659" />
+      <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test906/t" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/lcw/lcw334" />
-        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test732/seg" />
-        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode" />
-        <item itemvalue="Go Build.go build t3.go (1)" />
-        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test784" />
+        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test972" />
+        <item itemvalue="Go Build.go build AlgorithmsGO/acwing/test325" />
+        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/lcw/lcw352" />
+        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test1659" />
+        <item itemvalue="Go Build.go build AlgorithmsGO/leetcode/test906/t" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +207,28 @@
       <workItem from="1675475677625" duration="2005000" />
       <workItem from="1675481183744" duration="30912000" />
       <workItem from="1676555377906" duration="30842000" />
-      <workItem from="1676995839711" duration="21232000" />
+      <workItem from="1676995839711" duration="37585000" />
+      <workItem from="1678110441577" duration="64014000" />
+      <workItem from="1679834392744" duration="598000" />
+      <workItem from="1679835274208" duration="350000" />
+      <workItem from="1679835909170" duration="67000" />
+      <workItem from="1679836056551" duration="5428000" />
+      <workItem from="1680612861200" duration="588000" />
+      <workItem from="1680693196806" duration="5548000" />
+      <workItem from="1680875401635" duration="35822000" />
+      <workItem from="1682604654404" duration="5510000" />
+      <workItem from="1682689021332" duration="18230000" />
+      <workItem from="1683102794358" duration="44233000" />
+      <workItem from="1685151783087" duration="52336000" />
+      <workItem from="1686325685666" duration="59361000" />
+      <workItem from="1687572730399" duration="25327000" />
+      <workItem from="1688206587018" duration="16127000" />
+      <workItem from="1688397062056" duration="58863000" />
+      <workItem from="1689415781155" duration="29484000" />
+      <workItem from="1689692545555" duration="50838000" />
+      <workItem from="1690473770734" duration="970000" />
+      <workItem from="1690475854002" duration="103376000" />
+      <workItem from="1691802514364" duration="58068000" />
     </task>
     <servers />
   </component>
@@ -203,7 +240,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -339,6 +393,25 @@
           <url>file://$PROJECT_DIR$/leetcode/test732/seg/test732_seg.go</url>
           <line>108</line>
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetcode/lcw/lcw353/t4.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetcode/test1278/test1278.go</url>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetcode/test972/test972.go</url>
+          <line>38</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/leetcode/test972/test972.go</url>
+          <line>56</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
