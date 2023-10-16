@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="35afa9b1-341e-4a69-a03b-7254d63ef33f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codefoces/test1809C/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/codefoces/test1809C/test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/lcw/lcw367/t4.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lcw/lcw367/t4_s2/t4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/lcw/lcw367/t4/t4.go" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/lcw/lcw367/t4_s1/t4.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +87,11 @@
       <recent name="$PROJECT_DIR$/leetcode/lcw/lcw364/t4_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/leetcode/lcw/lcw367/t4_s2" />
       <recent name="$PROJECT_DIR$/leetcode/test1879/s2" />
       <recent name="$PROJECT_DIR$/leetcode/test1879/s1" />
       <recent name="$PROJECT_DIR$/leetcode/lcw/lcw360/t4" />
       <recent name="$PROJECT_DIR$/leetcode/test1851/s1" />
-      <recent name="$PROJECT_DIR$/leetcode/test310/s1" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build AlgorithmsGO/codefoces/test1809C">
@@ -239,7 +242,7 @@
       <workItem from="1695983360762" duration="9899000" />
       <workItem from="1696062178281" duration="40096000" />
       <workItem from="1697122419663" duration="615000" />
-      <workItem from="1697252101138" duration="30140000" />
+      <workItem from="1697252101138" duration="35728000" />
     </task>
     <servers />
   </component>

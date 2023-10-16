@@ -72,3 +72,6 @@ func cal(n, k int) []int {
 // 6: 21
 
 // n=6, k=18, t=5, d=3, 2 2 2 2 2
+
+// abb ba abb
+// abb ba aaa
