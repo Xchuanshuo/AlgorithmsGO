@@ -17,5 +17,5 @@ func main() {
 	//}()
 	//<-done
 	//fmt.Println("Graceful")
-	fmt.Println(3 % -2)
+	fmt.Println(-1 % 10)
 }

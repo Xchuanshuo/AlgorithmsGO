@@ -1,5 +1,13 @@
 package test765
 
+/**
+ * @Description https://leetcode.cn/problems/couples-holding-hands
+ * idea: 并查集.
+			1.给每队情侣分配同一个id
+			2.计算总共有多少对不同id在一个集合中
+			3.交换次数为每个单独的集合大小-1, 也可以反过来计算 总对数 - 不需要交换的对数
+ **/
+
 func minSwapsCouples(row []int) int {
 	var n = len(row)
 	var uf = NewUF(n / 2)
